@@ -1,8 +1,11 @@
 .erro{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    color: black;
+    justify-content:flex-start;
+    align-items:center;
+    flex-direction: column;
+    color: white;
+    background-color: black;
+    min-height: 100vh;
 }
 
 .erro h1{
@@ -12,7 +15,9 @@
 
 .erro h2{
     font-size: 2rem;
+
 }
+
 
 .erro a{
     text-decoration: none;
@@ -20,4 +25,11 @@
     background-color: rgb(234, 234, 115);
     padding: 1rem 1.2rem;
     border-radius: 5px;
+    font-weight: bold;
+    transition: all .3s;
+}
+
+.erro a:hover{
+    outline: 2.3px solid #fff957;
+    outline-offset: 10px;
 }
