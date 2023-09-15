@@ -1,0 +1,23 @@
+.erro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.erro h1{
+   font-size: 5rem;
+   text-transform: uppercase;
+}
+
+.erro h2{
+    font-size: 2rem;
+}
+
+.erro a{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(234, 234, 115);
+    padding: 1rem 1.2rem;
+    border-radius: 5px;
+}
